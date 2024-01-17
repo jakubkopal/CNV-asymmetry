@@ -25,7 +25,7 @@ In addition to the deletions at 16p11.2 and 22q11.2 loci, we probed the effects 
 
 
 ## Resources and Scripts
-CNV-specific asymmetry patterns are saved in the `data/CNV_AP` folder. All figures used in the articles are in the `figures` folder. Findings from the article are based on the analysis scripts in the `scripts` folder.
+CNV-specific asymmetry patterns are saved in the `data` folder. All figures used in the articles are in the `figures` folder. Findings from the article are based on the analysis scripts in the `scripts` folder.
 
 1.   `scripts/extract_asymmetry_pattern.py` is an example of using Linear discriminant to isolate CNV-specific asymmetry patterns from raw anatomical data. Bootstraping is implemented to increase robustness.
 2.   `scripts/analyze_single_CNV.py` is an analysis script to examine the asymmetry patterns of each CNV separately.
