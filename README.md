@@ -3,7 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1101%2F862615-informational
 )]([https://doi.org/10.1101/2023.04.17.537199](https://doi.org/10.1101/2023.04.17.537199))
 
-This repository contains the code used to process and analyse the data presented in the "Using rare genetic mutations to revisit structural brain asymmetry" paper.
+This repository contains the code used to process and analyse the data presented in the "Using rare genetic mutations to revisit structural brain asymmetry" paper. In addition, it also contains isolated asymmetry patterns and associated figures.
 
 ## Abstract
 <div style="margin-left: 40px;" align="justify">
