@@ -11,7 +11,7 @@ Asymmetry between the left and right brain is a key feature of brain organizatio
 </div>
 
 
-<c>![Figure 1](https://github.com/jakubkopal/CNV-asymmetry/Figures/Fig1.png)</c>
+<c>![Figure 1](https://github.com/jakubkopal/CNV-asymmetry/figures/Fig1.png)</c>
 
 
 Figure 1
