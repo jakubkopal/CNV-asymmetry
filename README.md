@@ -27,9 +27,10 @@ In addition to the deletions at 16p11.2 and 22q11.2 loci, we probed the effects 
 ## Resources and Scripts
 CNV-specific asymmetry patterns are saved in the `Data/CNV_AP` folder. Findings from the article are based on the analysis scripts in the `Scripts` folder.
 
-1.   `Scripts/extract_asymmetry_pattern.py` is an example of using Linear discriminant to isolate CNV-specific intermediate pehnotypes from raw anatomical data. Bagging and regularization is implemented to safeguard before overfitting.
-2.   `Scripts/analyze_single_CNV.py` is an analysis script to plot PCA and LDA two-dimensional projection of regional volumes.
-3.   `Scripts/analyze_multiple_CNV.m` plots and compares derived CNV-specific Cohen's d brain maps with LDA-derived intermediate phenotypes.
-4.   `Scripts/analyze_ip.py` is an analysis scripts to investigate CNV effects on large-scale networks with the use of LDA intermediate phenotypes.
-5.   `Scripts/compare_simmilarities.py` is an analysis script to compute the similarity between the phenome profiles, intermediate phenotypes, and volumetric Cohen's d brain maps.
+1.   `Scripts/extract_asymmetry_pattern.py` is an example of using Linear discriminant to isolate CNV-specific asymmetry patterns from raw anatomical data. Bootstraping is implemented to increase robustness.
+2.   `Scripts/analyze_single_CNV.py` is an analysis script to examine the asymmetry patterns of each CNV separately.
+3.   `Scripts/analyze_multiple_CNV.m` uses multi-class LDA to highlight similarities and differences among asymmetry patterns of 8 selected CNVs.
+4.   `Scripts/planum_temporale_analysis.py` is an analysis script to investigate CNV effects on planum temporale.
+5.   `Scripts/neurosynth_analysis.py` interrogates the NeuroSynth database to functionally annotate derived asymmetry patterns.
+6.   `Scripts/genetics_asymmtry.py` plots the annotation of SNPs and genes associated with planum temporale asymmetry in GWAS Catalogue.
 
