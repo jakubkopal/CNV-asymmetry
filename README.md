@@ -29,7 +29,7 @@ CNV-specific asymmetry patterns are saved in the `data` folder. All figures used
 
 1.   `scripts/extract_asymmetry_pattern.py` is an example of using Linear discriminant to isolate CNV-specific asymmetry patterns from raw anatomical data. Bootstraping is implemented to increase robustness.
 2.   `scripts/analyze_single_CNV.py` is an analysis script to examine the asymmetry patterns of each CNV separately.
-3.   `scripts/analyze_multiple_CNV.m` uses multi-class LDA to highlight similarities and differences among asymmetry patterns of 8 selected CNVs.
+3.   `scripts/analyze_multiple_CNV.py` uses multi-class LDA to highlight similarities and differences among asymmetry patterns of 8 selected CNVs.
 4.   `scripts/planum_temporale_analysis.py` is an analysis script to investigate CNV effects on planum temporale.
 5.   `scripts/neurosynth_analysis.py` interrogates the NeuroSynth database to functionally annotate derived asymmetry patterns.
 6.   `scripts/genetics_asymmtry.py` plots the annotation of SNPs and genes associated with planum temporale asymmetry in GWAS Catalogue.
